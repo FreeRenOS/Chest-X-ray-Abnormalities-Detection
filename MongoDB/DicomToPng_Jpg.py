@@ -1,6 +1,6 @@
 import os
 import pydicom
-import glob
+from glob import glob
 from PIL import Image
 import cv2
 import numpy as np
@@ -13,8 +13,9 @@ outdir = './Png_Jpg/'
 
 
 
-test_list = [os.path.basename(x) for x in glob.glob(inputdir + './*.dicom')]
-#glob.glob(inputdir + './*.dcm')
+test_list = [os.path.basename(x) for x in glob(inputdir + '*.dicom')]
+#glob(inputdir + './*.dcm')
+
 for f in test_list:
 
     ds = pydicom.read_file(inputdir + f) # read dicom image
