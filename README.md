@@ -13,14 +13,14 @@
 ### Memory: 949M
 ### Cores: 12
 
-- install list
-+ pydicom
-+ pillow
-+ pip install opencv-contrib-python
-+ matplotlib
-+ pymongo
-+ pandas
-+ pip install pymongo[srv]
++ install list
+  - pydicom
+  - pillow
+  - pip install opencv-contrib-python
+  - matplotlib
+  - pymongo
+  - pandas
+  - pip install pymongo[srv]
 
-- MongoDB Compass
-+ Version 1.25.0
++ MongoDB Compass
+  - Version 1.25.0
