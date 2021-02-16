@@ -24,3 +24,5 @@
 
 + MongoDB Compass
   - Version 1.25.0
+
+## MongoDB에 Dicom, Png, Jpg 업로드 다운로드
