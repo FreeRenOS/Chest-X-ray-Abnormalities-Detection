@@ -4,7 +4,7 @@ import glob
 import pydicom ### to conver dicom to png images
 from pydicom.pixel_data_handlers.util import apply_voi_lut ### don't know why???
 import cv2 ## OpenCV package
-from skimage import exposure ###  some preprocess like equalize histogram.
+# from skimage import exposure ###  some preprocess like equalize histogram.
 import numpy as np
 import pandas as pd
 import os

@@ -36,7 +36,7 @@ def DicomToPng(inputdir, outdir):
     test_list = [os.path.basename(x) for x in glob(inputdir + '*.dicom')]
     for f in test_list:
         ds = pydicom.read_file(inputdir + f) # read dicom image
-        ## Voi Lut가 있으면 np.uint8으로 변경 없으면 변환없이 반환
+        ## Voi Lut가 있으면 np.uint8으로 변경, 없으면 변환없이 반환
         img = pydicom.pixel_data_handlers.util.apply_voi_lut(ds.pixel_array, ds)
         ## dicom 속성에 MONOCHROME1이 있으면 Voi 그레이스케일로 변환
         if ds.PhotometricInterpretation == "MONOCHROME1":
