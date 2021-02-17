@@ -4,5 +4,5 @@
 ## DicomToPng_Jpg.py
 	#### Dicom 파일을 읽어 들여서 Png, Jpg 파일로 저장
 	
-##MongDB.py
+## MongDB.py
 	####pymongo를 이용해 클라우드나 로컬서버를 연결 후 Dicom, Png, Jpg 파일을 도큐먼트에 업로드 및 다운로드 함
