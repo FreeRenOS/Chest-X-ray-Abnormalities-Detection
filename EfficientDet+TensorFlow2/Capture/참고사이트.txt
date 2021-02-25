@@ -7,3 +7,6 @@ https://hoya012.github.io/blog/EfficientDet-Review/
 
 딥러닝 분야별 최신 기술 업데이트 사이트
 https://paperswithcode.com/sota
+
+coco 2017 dataset + TensorFlow2 사전학습 모델 모음
+https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md
